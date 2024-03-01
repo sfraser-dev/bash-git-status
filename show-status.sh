@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Use Git Bash terminal to run this on Windows
+
+# Bitbukect
+# ln -s ./bash-git-status/show-status.sh show-git-status.sh
+# GitHub
+# ln -s ../git-weebucket-win11/bash-git-status/show-status.sh show-git-status.sh
+
 dir="$1"
 
 # No directory has been provided, use current
