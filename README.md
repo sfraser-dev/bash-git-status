@@ -1,11 +1,14 @@
-<https://gist.github.com/mzabriskie/6631607>
+# Report Status of Multiple Git Repos at Once
 
-If you're like me you have a dir like `~/Workspace/Github` where all your git repos live. I often find myself making a change in a repo, getting side tracked and ending up in another repo, or off doing something else all together. After a while I end up with several repos with modifications. This script helps me pick up where I left off by checking the status of all my repos, instead of having to check each one individually.
+Script to check the status of all repos in a directory.
+Prevents having to check each repo individually.
 
 Usage:
 
 ```bash
-git-status [directory]
+show-status.sh [directory]
 ```
 
 This will run `git status` on each repo under the directory specified. If called with no directory provided it will default to the current directory.
+
+<https://gist.github.com/mzabriskie/6631607>
